@@ -44,10 +44,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
-# Ambient display
-PRODUCT_PACKAGES += \
-    LenovoDoze
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
